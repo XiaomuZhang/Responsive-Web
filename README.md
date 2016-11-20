@@ -25,11 +25,11 @@ src:url('XXX');
 - __visible-xx__ : 在某种屏幕尺寸下显示     
 
 ### 4.顶部导航栏组件   
-- data-toggle表明该组件的作用，data-target表明该组件的作用对象，值一般以"#xxx"开头，"XXX"为ID名
-- navbar-default：默认的外观样式,一般用自己的样式替换
-- navbar-inverse：暗色背景的样式
+- __data-toggle__： 表明该组件的作用，data-target表明该组件的作用对象，值一般以"#xxx"开头，"XXX"为ID名
+- __navbar-default__：默认的外观样式,一般用自己的样式替换
+- __navbar-inverse__：暗色背景的样式
 ```
-<nav class="navbar navbar-default navbar-static-top" role="navigation">
+<nav class="navbar navbar-default navbar-static-top" role="navigation" >
   <div class="container">
     //面包板组件
     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -53,8 +53,9 @@ src:url('XXX');
                  .....
             </ul>
       </div>
-  </div>    
-```   
+  </div>
+</nav>
+```
 ### 4.顶部导航栏组件
 
 
