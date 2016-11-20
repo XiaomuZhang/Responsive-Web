@@ -25,10 +25,11 @@ src:url('XXX');
 - __visible-xx__ : 在某种屏幕尺寸下显示     
 
 ### 4.顶部导航栏组件   
-- __data-toggle__： 表明该组件的作用，data-target表明该组件的作用对象，值一般以"#xxx"开头，"XXX"为ID名
-- __navbar-default__：默认的外观样式,一般用自己的样式替换
-- __navbar-inverse__：暗色背景的样式
-```
+- __data-toggle__： 表明该组件的作用，data-target表明该组件的作用对象，值一般以"#xxx"开头，"XXX"为ID名;
+- __navbar-default__：默认的外观样式,一般用自己的样式替换;
+- __navbar-inverse__：暗色背景的样式;
+
+```html
 <nav class="navbar navbar-default navbar-static-top" role="navigation" >
   <div class="container">
     //面包板组件
@@ -56,17 +57,38 @@ src:url('XXX');
   </div>
 </nav>
 ```
-### 4.顶部导航栏组件
+### 5.轮播图组件			
+- __data-slide-to__：是指当前的li元素绑定的是第几个轮播项，给默认的展示项加上active；		
+- __role__：添加的语义属性，解释当前标签的作用；
+- __data-slide__：图片滑动的方向
+```html 
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- 轮播图的控制标签 -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+  </ol>
 
+  <!-- 所有轮播项的盒子 -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="..." alt="...">
+    </div>
+    <div class="item">
+      <img src="..." alt="...">
+    </div>
+    ...
+  </div>
 
-
-
-
-
-
-
-
-
-
-
-
+  <!-- 轮播图的左右两个控制按钮，a标签的href属性必须指向需要控制的轮播图组件id-->
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+```
