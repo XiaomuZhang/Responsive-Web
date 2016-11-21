@@ -1,5 +1,5 @@
 # responsiveWeb主要知识点总结
-在使用了boostrap框架,大多数界面元素都是通过bootstrap提供好的界面组件修改得来
+[项目展示](http://XiaomuZhang.github.io/responsiveWeb/index.html)在使用了boostrap框架,大多数界面元素都是通过bootstrap提供好的界面组件修改得来
 ### 1.container类
 用于定义一个固定宽度且居中的版心    
 ### 2.响应式网格系统   
@@ -13,7 +13,7 @@ font-family:'字体名称';
 src:url('XXX');
 }
 /*字体库引用*/
-//选址类名中以icon开头及包含icon的所有标签
+/*选择类名中以icon开头及包含icon的所有标签*/
 [class=^"icon-"],
 [class*=" icon-"] {
   font-family: itcast;
