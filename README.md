@@ -1,5 +1,5 @@
 # responsiveWeb主要知识点总结
-##[项目展示](http://XiaomuZhang.github.io/responsiveWeb/index.html)		
+##[展示地址](http://XiaomuZhang.github.io/responsiveWeb/index.html)		
 该项目使用了boostrap框架,大多数界面元素都是通过bootstrap提供好的界面组件修改得来
 ### 1.container类
 用于定义一个固定宽度且居中的版心    
